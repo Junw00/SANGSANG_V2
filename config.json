@@ -1,0 +1,21 @@
+{
+    "URL": "https://ebs1-meeting.dooray.com/onclass/video-call/0000000000000",
+    "IP": "0.0.0.0",
+    "email": "sangsang@ebsoc.co.kr",
+    "id": "0",
+    "name": "0",
+    "grade": "middle",
+    "type": "student_all",
+    "integrationname": "ebs",
+    "host": "ccb",
+    "atnlcNo": "2",
+    "lctreSn": "0",
+    "userSn": "0",
+    "schoolGrade": "3",
+    "schoolClass": "6",
+    "schoolNo": "4",
+    "iat": 2,
+    "exp": 2,
+    "iss": "dooary-open-api",
+    "count": "1"
+  }
