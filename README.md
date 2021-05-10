@@ -34,7 +34,7 @@
 ### config.json
 	URL =  실시간 쌍방향 수업 링크
 	IP =  봇 아이피
-	email =  봇 아이피
+	email =  봇 이메일
 	name =  봇 이름	 
 	grade =  학교 (ex. middle = 중학교)
 	schoolGrade =  학년
