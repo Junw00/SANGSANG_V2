@@ -14,8 +14,8 @@ def summary():
     
     random_id = ''.join([str(random.randint(0, 999)).zfill(3) for _ in range(2)])
     json_data['id'] = random_id
-
-    print(json_data)
+    json_data['email'] = random_id + "@ebsoc.co.kr"
+    
     response = app.response_class(
         response=json.dumps(json_data),
         status=200,
