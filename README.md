@@ -84,7 +84,7 @@ if (oSession.PathAndQuery=="/open-api/meeting/v1/verify" && oSession.isHTTPS) {
 
 
 # 할일
-- [ ] 서버 수정 (급함)
+- [X] 서버 수정 (급함)
 - [ ] 채팅 기능추가
 - [ ] 캠 기능추가
 
