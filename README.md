@@ -80,7 +80,7 @@ if (oSession.PathAndQuery=="/open-api/meeting/v1/verify" && oSession.isHTTPS) {
 		oSession.url = "127.0.0.1:5000/verify";
 }
 ```
-> C:\Users\Username\Documents\Fiddler2\Scripts 에  [CustomRules.js](https://github.com/Junw00/SANGSANG_V2/blob/main/etc/CustomRules.js)를 덮어씌워도 됩니다.
+> C:\Users\Username\Documents\Fiddler2\Scripts 에  [CustomRules.js](https://github.com/Junw00/etc_file/blob/main/CustomRules.js)를 덮어씌워도 됩니다.
 
 
 # 할일
