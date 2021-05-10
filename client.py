@@ -43,7 +43,7 @@ query.update(params)
 
 url_parts[4] = urlencode(query)
 
-print(urlparse.urlunparse(url_parts))
+#print(urlparse.urlunparse(url_parts))
 
 #############################################
 
