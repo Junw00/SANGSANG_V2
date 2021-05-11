@@ -61,7 +61,7 @@
 	pip install Flask  
   
 ### 실행방법
-	1. 자신의 크롬 버전에 맞는 크롬 드라이버 다운로드후 client.py와 같은 디렉토리에 위치
+	1. 자신의 크롬 버전에 맞는 크롬 드라이버 다운로드후 같은 디렉토리에 위치
 	2. 아래 FiddlerClassic 설정 방법 참고
 	3. config.json에서 URL등 설정
 	4. server.py 실행
