@@ -8,7 +8,6 @@ app = Flask(__name__)
 with open('config.json', 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
-
 @app.route('/verify',  methods=['POST'])
 def summary():
     
