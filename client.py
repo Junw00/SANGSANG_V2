@@ -18,7 +18,7 @@ from urllib.parse import urljoin
 import json
 
 # json parse
-with open('config.json', 'r') as f:
+with open('config.json', 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
     URL = json_data["URL"]
