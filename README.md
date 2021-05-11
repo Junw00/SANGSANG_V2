@@ -1,4 +1,5 @@
 
+
 # SANGSANG_V2
 **온라인 클래스 실시간 쌍방향 수업 접속 봇 sangsangbot V2**
 
@@ -72,7 +73,13 @@
 	9. Enter 입력시 실행
 	10. 종료시 Ctrl+C 입력
 
-#### FiddlerClassic 다운로드 후 위쪽 메뉴 Rules - Customize Rules - OnBeforeRequest에 스크립트 추가
+**FiddlerClassic  설정**
+
+ 
+
+    1. Tools - Options... - HTTPS - Decrypt HTTPS traffic 클릭, Actions클릭
+    2. Rules - Customize Rules - OnBeforeRequest에 스크립트 추가
+
 ![enter image description here](https://raw.githubusercontent.com/Junw00/SANGSANG_V2/main/etc/fiddlerscript.PNG)
 ```C#
 if (oSession.PathAndQuery=="/open-api/meeting/v1/verify" && oSession.isHTTPS) {
@@ -84,7 +91,7 @@ if (oSession.PathAndQuery=="/open-api/meeting/v1/verify" && oSession.isHTTPS) {
 
 
 # 할일
-- [X] 서버 수정 (급함)
+- [x] 서버 수정 (급함)
 - [ ] 채팅 기능추가
 - [ ] 캠 기능추가
 
