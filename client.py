@@ -29,13 +29,13 @@ count_int = int(count)
 
 # URL 구조 추출
 url_full = urlparse.urlparse(URL)
-url_path = url_full.path.replace('/onclass/video-call/', '0')
+url_path = url_full.path.replace('/onclass/video-call/', '')
 url_host = url_full.netloc
 
 # 접속 URL 만들기
 url_re = urlparse.urljoin(URL, '/onclass/sign-in')
 
-params = {'roomid': url_path, 'x': '0'}
+params = {'roomid': url_path, 'x': 'ebsebschchch'}
 
 url_parts = list(urlparse.urlparse(url_re))
 query = dict(urlparse.parse_qsl(url_parts[4]))
@@ -43,7 +43,7 @@ query.update(params)
 
 url_parts[4] = urlencode(query)
 
-#print(urlparse.urlunparse(url_parts))
+print(urlparse.urlunparse(url_parts))
 
 #############################################
 
