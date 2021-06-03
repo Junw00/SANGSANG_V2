@@ -100,4 +100,4 @@ if (oSession.PathAndQuery=="/open-api/meeting/v1/verify" && oSession.isHTTPS) {
 - **본 코드로 인해 일어나는 불이익은 책임지지 않습니다.**
 - 코드가 지저분합니다.
 - (신) 중학교 EBS온라인클래스에서만 테스트 되었습니다.
-- 아직 버그가 있습니다, 계속 업데이트할 예정입니다.
+- 아직 버그가 있습니다.
